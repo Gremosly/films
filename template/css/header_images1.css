@@ -1,0 +1,82 @@
+.pzdz{
+	color:red;
+}
+.lenta{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.home_alone,
+.matrix,
+.terminator,
+.ridik{
+	position: absolute;
+	width: 17.65%;
+	top: 1.37vw;
+	height: 5.55vw;
+}
+.home_alone{
+	left: 4.15%;
+	width: 8%;
+}
+.matrix{
+	left: 12.72%;
+	width: 7.69%;
+}
+.terminator{
+	left: 21.3%;
+	width: 7.78%;
+}
+.ridik{
+	left: 29.87%;
+	width: 7.74%;
+}
+.day{
+	position: absolute;
+	width: 6.6%;
+	top: 1.37vw;
+	left: 38.52%;
+	height: 5.55vw;
+}
+.evil{
+	position: absolute;
+	width: 6.8%;
+	top: 1.37vw;
+	left: 46.1%;
+	height: 5.55vw;
+}
+.s2012{
+	position: absolute;
+	width: 6.57%;
+	top: 1.37vw;
+	left: 88.15%;
+	height: 5.55vw;
+}
+.avatar{
+	position: absolute;
+	top: 1.37vw;
+	left: 62.35%;
+	height: 5.55vw;
+	width: 7.7%;
+}
+.dark{
+	position: absolute;
+	top: 1.37vw;
+	left: 70.95%;
+	height: 5.55vw;
+	width: 7.672%;
+}
+.spider_man{
+	position: absolute;
+	top: 1.37vw;
+	left: 53.7%;
+	height: 5.55vw;
+	width: 7.69%;
+}
+.furious{
+	position: absolute;
+	top: 1.37vw;
+	left: 79.5%;
+	height: 5.55vw;
+	width: 7.72%;
+}

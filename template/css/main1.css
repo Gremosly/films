@@ -1,0 +1,324 @@
+*{
+	margin:0;
+	padding:0;	
+	font-family: 'Times New Roman','comic sans';	
+}
+body{
+	background-image: url(../images/background.gif); 
+/*	background-image: url(../images/background_white2.jpg);*/
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.container{
+	color: white;
+	width: 90%;
+	margin-left: 5%;
+}
+.header{
+	
+}
+.film_logo{
+	margin-top: 9vw;
+	color: #5C5C5C;
+	text-shadow: 0.05vw 0.05vw 0.3vw #5C5C5C;
+	font-family: 'Times New Roman','comic sans';
+	font-size: 1.7vw;
+	height: 2vw;
+	width: 7vw;
+	text-align: left;
+	vertical-align: middle;
+	border-right: 0.1vw solid #CED3E6;
+	float: left;
+}
+.serial_logo{
+	margin-top: 9vw;
+	float: left;
+	color: #5C5C5C;
+	text-shadow: 0.05vw 0.05vw 0.3vw #5C5C5C;
+	font-family: 'Times New Roman','comic sans';
+	font-size: 1.7vw;
+	height: 2vw;
+	width: 8vw;
+	text-align: center;
+	vertical-align: middle;
+}
+.add_content{
+	border-left: 0.1vw solid #CED3E6;
+	margin-top: 9vw;
+	float: left;
+	color: #5C5C5C;
+	text-shadow: 0.05vw 0.05vw 0.3vw #5C5C5C;
+	font-family: 'Times New Roman','comic sans';
+	font-size: 1.7vw;
+	height: 2vw;
+	width: 17vw;
+	text-align: center;
+	vertical-align: middle;
+}
+.add_content:hover{
+	color: #b5e2ff;
+	text-shadow: 0.05vw 0.05vw 0.3vw #b5e2ff;
+}
+.serial_logo:hover,
+.film_logo:hover{
+	color: #CED3E6;
+	text-shadow: 0.05vw 0.05vw 0.3vw #CED3E6;
+}
+.settings,
+.logout{
+	float: right;
+	width: 2.1vw;
+	margin-top: 9vw;
+}
+.settings:hover{
+	content: url(../icons/train.svg);	
+}
+.logout:hover{
+	content: url(../icons/padlock_light.svg);	
+}
+.flug{
+	clear: both;
+	float: left;
+}
+.film_item{
+	float: left;
+	width: 11.11%;
+	margin-top:1vw;
+	height: 13vw;
+}
+.poster{
+	height:11vw;
+	width: 80%;
+	margin-left: 10%;
+	box-shadow:0vw 0vw 1vw #4e4e4e;
+}
+/*
+.poster:hover{
+	box-shadow:0vw 0vw 1vw #bac1d8;
+}
+*/
+.film_item p{
+	text-align: center;
+	font-family: 'Times New Roman','comic sans';
+	color: #4e4e4e;
+	font-size: 1.1vw;
+	text-shadow: 0.05vw 0.05vw 0.3vw #4e4e4e;
+}
+/*
+.film_item p:hover{
+	color: #bac1d8;
+	text-shadow: 0.05vw 0.05vw 0.3vw #bac1d8;
+}
+*/
+a{
+	text-decoration:none;
+}
+
+input{
+	width: 20%;
+	color: #bac1d8;
+	font-family: 'Times New Roman','comic sans';
+	font-size: 1.2vw;
+	height: 2vw;
+	text-align: center;
+	border:0.1vw solid #bac1d8;
+	border-radius: 0.3vw;
+	box-shadow: 0.05vw 0.05vw 0.3vw #bac1d8;
+}
+.signup-form{
+	text-align: center;
+}
+.admin_panel,
+.login_logo{
+	color: #bac1d8;
+	text-shadow: 0.05vw 0.05vw 0.1vw #bac1d8;
+	font-family: 'Times New Roman','comic sans';
+	margin:0.6vw;
+}
+.admin_panel{
+	margin-top:12vw; 
+	font-size: 1.7vw;
+}
+.login_logo{
+	margin-top: 12vw;
+	font-size: 1.5vw;
+}
+
+em{
+	font-size: 1.3vw;
+	color: #D74E66;
+	font-family: 'Times New Roman','comic sans';
+}
+.add_film,
+.add_serial{
+	margin-top: 3vw;
+	float: left;
+	font-size: 1.5vw;
+	color: #5C5C5C;
+	text-shadow: 0.05vw 0.05vw 0.1vw  #5C5C5C;
+	font-family: 'Times New Roman','comic sans';
+}
+
+.signup-form{
+	margin-top: 13vw;
+}
+.form_add_content{
+	margin-top: 3vw;
+	text-align: center;
+}
+.on_main{
+	float: left;
+	padding-top: 1.1vw;
+	width: 20%;
+	text-align: left;
+	text-decoration:none;
+	font-size: 1.5vw;
+	color: #4e4e4e;
+	text-shadow: 0.05vw 0.05vw 0.1vw  #4e4e4e;
+	font-family: 'Times New Roman','comic sans';
+}
+.arrow-left{
+	margin-left: 39.5%;
+	float: left;
+	clear: both;
+	width: 2vw;
+	margin-top: 1vw;
+}
+#two:hover{
+	color: #bac1d8;
+	text-shadow:0.05vw 0.05vw 0.1vw  #bac1d8;
+}
+#one:hover{
+	content: url(../icons/arrow-left_light.svg);
+}
+.login,
+.password,
+.btn-default{
+	margin:0.8vw;
+	margin-left: 40%;
+	clear: both;
+	float: left;
+}
+.btn-default{
+	background-color: #bac1d8;
+	color: #4e4e4e;	
+}
+#plus1{
+	float: left;
+	width: 1.4vw;
+	margin-left: 42%;
+	margin-top: 3.2vw;
+}
+#plus2{
+	clear: both;
+	float: left;
+	width: 1.4vw;
+	margin-left: 42%;
+	margin-top: 3.2vw;
+}
+.film_name,
+.film_image,
+.film_year,
+.film_description,
+.film_country{
+	float: left;
+}
+
+.film_name,
+.film_year,
+.film_description,
+.film_country{
+	margin:0.5vw;
+	width: 15%;
+	color: #5C5C5C;
+	text-shadow: 0.05vw 0.05vw 0.3vw #5C5C5C;
+	font-family: 'Times New Roman','comic sans';
+	font-size: 1.7vw;
+	margin-top: 2vw;
+	margin-left: 1vw;
+}
+.film_name{
+	margin-top: 2vw;
+}
+.film_image{
+	margin-top: 2vw;	
+	width: 24vw;
+	height: 36vw;
+	position: static;
+}
+.film_name1,
+.film_year1,
+.film_country1{
+	margin:0.5vw;
+	color: #6F6F6F;
+	text-shadow: 0.01vw 0.01vw 0.1vw #6F6F6F;
+	font-family: 'Times New Roman','comic sans';
+	font-size: 1.7vw;
+	margin-top: 2vw;
+	margin-left: 1vw;
+	width: 40%;
+	float: left;
+	text-align: left;
+}
+
+.film_description1{
+	margin:0.5vw;
+	color: #6F6F6F;
+	text-shadow: 0.01vw 0.01vw 0.1vw #6F6F6F;
+	font-family: 'Times New Roman','comic sans';
+	font-size: 1.4vw;
+	margin-top: 5vw;
+	margin-left: 1vw;
+	width: 40%;
+	float: left;
+	text-align: left;
+}
+.film_description{
+	margin-top: 5vw;
+}
+.film_video{
+	text-align: center;
+	clear: both;
+	float: left;
+	margin-left: 16%;
+	margin-bottom:5vw;
+	width: 70%;
+	height: 35vw;
+	background-color: black !important;
+}
+.watch_online{
+	margin-top: 2vw;
+	margin-bottom: 1vw;
+	text-align: center;
+	width: 100%;
+	clear: both;
+	float: left;
+	color: #6F6F6F;
+	text-shadow: 0.01vw 0.01vw 0.1vw #6F6F6F;
+	font-family: 'Times New Roman','comic sans';
+	font-size: 1.4vw;
+}
+
+.edit{
+	float: right;
+	width: 2.1vw;
+	margin-top: 2.5vw;
+	margin-right: 10%;
+}
+.edit:hover{
+	content: url(../icons/wrench_light.svg);	
+}
+.delete{
+	float: left;
+	color: #EC7676;
+	text-shadow: 0.01vw 0.01vw 0.1vw #EC7676;
+	font-family: 'Times New Roman','comic sans';
+	font-size: 1.4vw;
+	margin-top: 1vw;
+}
+.delete:hover{
+	color: #EA2A2A;
+	text-shadow: 0.01vw 0.01vw 0.1vw #EA2A2A;
+	font-family: 'Times New Roman','comic sans';
+}

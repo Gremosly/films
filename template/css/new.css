@@ -1,0 +1,31 @@
+.description{
+	width: 20%;
+	color: #bac1d8;
+	font-family: 'Times New Roman','comic sans';
+	font-size: 1.2vw;
+	height: 10vw;
+	text-align: left;
+	border:0.1vw solid #bac1d8;
+	border-radius: 0.3vw;
+	box-shadow: 0.05vw 0.05vw 0.3vw #bac1d8;
+
+}
+.country,
+.year,
+.filmName,
+.poster_img,
+.video{
+	width: 20%;
+	height: 2vw;
+	float: left;
+	clear: both;
+	margin:0.8vw;
+	margin-left: 40%;
+}
+.description{
+	width: 30%;
+	float: left;
+	clear: both;
+	margin:0.8vw;
+	margin-left: 35%;
+}
